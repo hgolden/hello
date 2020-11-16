@@ -19,8 +19,8 @@ executable hello
   build-depends:       base >= 4.7 && < 5
                      , hello
                      , dogs
-  other-modules:       Hello
-                     , DogsRule
+  other-modules:       DogsRule
+                     , Hello
 
 library
   hs-source-dirs:      src
