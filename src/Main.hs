@@ -1,7 +1,7 @@
 module Main where
 
-import DogsRule (dogs)
-import Hello (sayHello)
+import DogsRule
+import Hello
 
 main :: IO ()
 main = do
